@@ -7,13 +7,9 @@ Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-mkl-random==1.1.1
-mkl-service==2.3.0
-numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
 Pillow==8.1.0
 pytz==2020.5
 scipy==1.5.4
-six @ file:///C:/ci/six_1605187374963/work
 sqlparse==0.4.1
 Werkzeug==1.0.1
 wincertstore==0.2
