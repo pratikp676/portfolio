@@ -233,7 +233,12 @@
             </div>
           </div>
         </div>
-
+        <br><br>
+        <div class="row">
+          <div class="col-md-4"></div>
+            <a href="{% static 'pw1/assets/resume.pdf' %}" class="btn btn-lg btn-outline-primary text-center col-md-3"role="Download" >Download CV</a>
+            <div class="col-md-5"></div>
+        </div>
       </div>
     </section><!-- End Resume Section -->
 
@@ -352,11 +357,9 @@
 
     <div class="container section-title">
       <div class="row">
-        <div class="col-md-1"></div>
-        <a href="{% static 'pw1/assets/resume.pdf' %}" class="btn btn-lg btn-outline-primary text-center col-md-4"role="Download" >Download CV</a>
-        <div class="col-md-2"></div>
-        <a href="{% url 'contact' %}" class="btn btn-lg btn-outline-primary text-center col-md-4" role="button" >Contact Me</a>
-        <div class="col-md-1"></div>
+        <div class="col-md-4"></div>
+        <a href="{% url 'contact' %}" class="btn btn-lg btn-outline-primary text-center col-md-3" role="button" >Contact Me</a>
+        <div class="col-md-5"></div>
       </div>
     </div>
   </main><!-- End #main -->
