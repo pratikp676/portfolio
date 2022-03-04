@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #dee2e6;
+  background: #072647;
 }
 
 a {
@@ -340,7 +341,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #dee2e6;
 }
 
 .section-title h2::before {
@@ -1168,4 +1169,31 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.skills .progress .skill,.resume .resume-title,#footer{
+  color: #dee2e6;
+}
+
+.services .icon-box,#footer{
+  background: #0d2747;
+}
+
+.resume .resume-item h5{
+  background: #0c2647
+}
+
+.btn-outline-primary {
+  color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.services .icon-box h4 a {
+  color: #0563bb;
+  transition: ease-in-out 0.3s;
+}
+
+.icofont-navigation-menu:before {
+  content: "\efa2";
+  color: #dee2e6;
 }
